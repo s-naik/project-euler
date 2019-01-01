@@ -1,0 +1,14 @@
+public class Eu1Multiple {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int sum = 0, num;
+        for (num = 1; num < 1000; num++) {
+            if (num%3 == 0 || num%5 == 0)
+                sum+= num;
+        }
+        System.out.println(sum);
+    }
+}
